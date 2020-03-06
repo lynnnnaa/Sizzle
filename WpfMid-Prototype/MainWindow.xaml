@@ -8,9 +8,9 @@
         Title="MainWindow" Height="750" Width="1280">
     <Grid RenderTransformOrigin="0.471,0.055" Opacity="0.8">
 
-        <ScrollViewer Foreground="#FFC17D7D" Margin="2,143,-2,0" Background="#FFFFFAEE">
+        <ScrollViewer Foreground="#FFC17D7D" Margin="2,143,-2,-608">
             <StackPanel>
-                <Label Content="Right Now" HorizontalAlignment="Left" Margin="90,50,0,0" VerticalAlignment="Top" Width="140" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="#FFE4E88B"/>
+                <Label Content="Right Now" HorizontalAlignment="Left" Margin="90,50,0,0" VerticalAlignment="Top" Width="140" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="{x:Null}"/>
                 <Image x:Name="image1" Margin="93,50,1000,80" Height="172" Source="Image5.png" Stretch="Fill" Width="166"/>
 
                 <Image x:Name="image2" Margin="93,-260,550,80" Height="182" Source="Image6.png" Stretch="Fill" Width="183"/>
@@ -22,7 +22,7 @@
                 <Label Content="Milk Tea " HorizontalAlignment="Left" Margin="1030,-70,0,0" VerticalAlignment="Top" Width="99" FontSize="18"/>
                 <Label Content="Burger" HorizontalAlignment="Left" Margin="800,-70,0,0" VerticalAlignment="Top" Width="99" FontSize="18" RenderTransformOrigin="0.973,0.518"/>
                 <Label Content="Pasta" HorizontalAlignment="Left" Margin="360,-70,0,0" VerticalAlignment="Top" Width="99" FontSize="18"/>
-                <Label Content="Category" HorizontalAlignment="Left" Margin="100,0,0,0" VerticalAlignment="Top" Width="127" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="#FFE4E88B"/>
+                <Label Content="Category" HorizontalAlignment="Left" Margin="100,0,0,0" VerticalAlignment="Top" Width="127" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="{x:Null}"/>
                 <Image x:Name="image21" Height="178" Margin="60,60,930,0" Source="Image24.png" Stretch="Fill" Width="182"/>
                 <Image Height="100" Width="100"/>
                 <Image x:Name="image22" Height="170"  Margin="-420,-380,0,0" Source="Image26.png" Stretch="Fill" Width="175"/>
@@ -40,14 +40,14 @@
                 <Label Content="Vegetable" FontSize="20"  Margin="-1770,-00,-900,0" Height="39" Width="102"/>
                 <Label Content="Drinks" FontSize="20"  Margin="-1330,-40,-900,0" Height="39" Width="79"/>
                 <Label Content="Others" FontSize="20"  Margin="-870,-40,-900,0" Height="39" Width="79"/>
-                <Label Content="Popular" FontSize="24" Margin="-1800,80,-900,0" Height="51" Width="111" Background="#FFE4E88B" RenderTransformOrigin="-0.814,0.986"/>
+                <Label Content="Popular" FontSize="24" Margin="-1800,80,-900,0" Height="51" Width="111" Background="{x:Null}" RenderTransformOrigin="-0.814,0.986"/>
 
 
 
             </StackPanel>
         </ScrollViewer>
-        <Rectangle Fill="#FFF3B240" Stroke="Black" Margin="0,0,0,628"/>
-        <Rectangle Fill="#FF59ACAC" Stroke="Black" Margin="0,82,0,570"/>
+        <Rectangle Stroke="Black" Margin="0,0,0,628"/>
+        <Rectangle Stroke="Black" Margin="0,82,0,570"/>
 
 
         <StackPanel x:Name="menuPanel" MouseLeave="menuPanel_MouseLeave" Visibility="Hidden">
@@ -62,7 +62,7 @@
 
         </StackPanel>
         <Image x:Name="menuButton" Source="Image13.png" Stretch="Fill" MouseMove="menuButton_MouseMove" MouseDown="menuButton_MouseDown" Margin="10,10,1197,645"/>
-        <TextBox x:Name="textB" HorizontalAlignment="Left" Height="57" TextWrapping="Wrap" Text="Enter Keywords for Recipes" VerticalAlignment="Top" Width="376" FontSize="20" Background="#FFFDFCE4" Margin="453,17,0,0"/>
+        <TextBox x:Name="textB" HorizontalAlignment="Left" Height="57" TextWrapping="Wrap" Text="Enter Keywords for Recipes" VerticalAlignment="Top" Width="376" FontSize="20" Background="{x:Null}" Margin="453,17,0,0"/>
         <Button Content="Right Now" HorizontalAlignment="Left" Margin="276,89,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
         <Button Content="Category" HorizontalAlignment="Left" Margin="424,88,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
         <Button Content="Popular" HorizontalAlignment="Left" Margin="570,88,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
