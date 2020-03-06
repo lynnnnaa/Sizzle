@@ -12,9 +12,9 @@
             <StackPanel>
                 <Label Content="Right Now" HorizontalAlignment="Left" Margin="90,50,0,0" VerticalAlignment="Top" Width="140" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="{x:Null}"/>
                 <Image x:Name="image1" Margin="93,50,1000,80" Height="172" Source="Image5.png" Stretch="Fill" Width="166"/>
+                <Image x:Name="image3" Margin="93,-260,100,80" Height="176" Source="Image7.png" Stretch="Fill" Width="184"/>
 
                 <Image x:Name="image2" Margin="93,-260,550,80" Height="182" Source="Image6.png" Stretch="Fill" Width="183"/>
-                <Image x:Name="image3" Margin="93,-260,100,80" Height="177" Source="Image7.png" Stretch="Fill" Width="183"/>
                 <Image x:Name="image4" Margin="93,-260,-350,80" Height="178" Source="Image8.png" Stretch="Fill" Width="183"/>
                 <Image x:Name="image5" Margin="93,-260,-800,80" Height="177" Source="Image10.png" Stretch="Fill" Width="184"/>
                 <Label Content="Pork Belly " HorizontalAlignment="Left" Margin="120,-70,0,0" VerticalAlignment="Top" Width="99" FontSize="18" Height="42"/>
