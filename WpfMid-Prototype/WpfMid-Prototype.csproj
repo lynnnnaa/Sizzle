@@ -225,7 +225,13 @@
     <Resource Include="Image33.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image-placeholder.png" />
+    <Resource Include="Image_Placeholder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image_Quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image_Add.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

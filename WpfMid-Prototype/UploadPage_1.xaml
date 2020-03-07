@@ -30,19 +30,19 @@
                 <Image x:Name="image2" Source="Image-placeholder.png" Stretch="Fill" Width="150" Height="150" Canvas.Left="122" Canvas.Top="67"/>
 
                 <Label Content="Recipe Name: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="45"/>
-                <TextBox HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="45"/>
+                <TextBox HorizontalAlignment="Left" Height="29" BorderBrush="Black" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="45"/>
                 <Label Content="Difficulty: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" RenderTransformOrigin="0.575,0.215" Canvas.Left="585" Canvas.Top="98"/>
                 <Label Content="Prep Time: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="151"/>
                 <Label Content="Cook Time: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="204"/>
                 <Label Content="Portion: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="257"/>
                 <Label Content="Constraint: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="310"/>
                 <Label Content="Note: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="363"/>
-                <TextBox HorizontalAlignment="Left" Height="138" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="363"/>
-                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="204"/>
-                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" SelectionChanged="ComboBox_SelectionChanged" Canvas.Left="728" Canvas.Top="151"/>
-                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="257"/>
-                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="310"/>
-                <Slider HorizontalAlignment="Left" VerticalAlignment="Top" Height="29" Width="368" ValueChanged="Slider_ValueChanged" FontSize="18" Canvas.Left="728" Canvas.Top="98"/>
+                <TextBox HorizontalAlignment="Left" Height="138" BorderBrush="Black" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="363"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="132" Height="29" Canvas.Left="728" Canvas.Top="204"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="132" Height="29" SelectionChanged="ComboBox_SelectionChanged" Canvas.Left="728" Canvas.Top="151"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="132" Height="29" Canvas.Left="728" Canvas.Top="257"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="132" Height="29" Canvas.Left="728" Canvas.Top="310"/>
+                <Slider HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Height="29" Width="368" ValueChanged="Slider_ValueChanged" FontSize="18" Canvas.Left="728" Canvas.Top="98"/>
                 <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="866" Canvas.Top="151"/>
                 <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="866" Canvas.Top="204"/>
                 <Button Content="Save and Exit" FontSize="20" FontFamily="Calibri" Canvas.Left="830" Canvas.Top="566" Width="175" Height="33"/>
