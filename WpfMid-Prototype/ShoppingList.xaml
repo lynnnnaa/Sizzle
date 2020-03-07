@@ -8,7 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ShoppingList">
 
-    <Grid Background="#FFFFBDBD">
-        <local:Menu></local:Menu>
+    <Grid >
+        <Rectangle Fill="#FF5E5EF3" HorizontalAlignment="Left" Height="280" Margin="332,160,0,0" Stroke="Black" VerticalAlignment="Top" Width="319"/>
+
     </Grid>
 </Page>

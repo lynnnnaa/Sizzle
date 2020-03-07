@@ -24,5 +24,10 @@ namespace WpfMid_Prototype
         {
             InitializeComponent();
         }
+
+        private void Menu_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

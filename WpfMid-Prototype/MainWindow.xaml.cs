@@ -24,7 +24,37 @@ namespace WpfMid_Prototype
         {
             
             InitializeComponent();
-            
+            StartMain.Content = new HomePage();
+
+        }
+
+
+
+        private void menu2_MouseLeave(object sender, MouseEventArgs e)
+        {
+            menu2.Visibility = System.Windows.Visibility.Hidden;
+        }
+
+        private void ShoppintList_Click(object sender, RoutedEventArgs e)
+        {
+
+            StartMain.Content = new ShoppingList();
+        }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+
+            StartMain.Content = new HomePage();
+        }
+
+        private void menuButton_MouseMove(object sender, MouseEventArgs e)
+        {
+            menu2.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void menuButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            menu2.Visibility = System.Windows.Visibility.Visible;
         }
     }
 }
