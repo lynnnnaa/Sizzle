@@ -9,36 +9,40 @@
       Title="UploadPage">
 
     <Grid RenderTransformOrigin="0.471,0.055" Opacity="0.8">
-        <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" Margin="480,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="36"/>
-        <Image x:Name="image1" Margin="367,206,763,444" Height="150" Source="Image6.png" Stretch="Fill" Width="150"/>
-        <Image x:Name="image2" Margin="179,206,951,444" Source="Image-placeholder.png" Stretch="Fill" Width="150" Height="150"/>
-        <Label Content="Recipe Name: &#xA;" HorizontalAlignment="Left" Margin="585,206,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <TextBox HorizontalAlignment="Left" Height="29" Margin="728,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18"/>
-        <Label Content="Difficulty: &#xA;" HorizontalAlignment="Left" Margin="585,254,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" RenderTransformOrigin="0.575,0.215"/>
-        <Label Content="Prep Time: &#xA;" HorizontalAlignment="Left" Margin="585,307,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <Label Content="Cook Time: &#xA;" HorizontalAlignment="Left" Margin="585,360,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <Label Content="Portion: &#xA;" HorizontalAlignment="Left" Margin="585,413,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <Label Content="Constraint: &#xA;" HorizontalAlignment="Left" Margin="585,466,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <Label Content="Note: &#xA;" HorizontalAlignment="Left" Margin="585,519,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <TextBox HorizontalAlignment="Left" Height="197" Margin="728,519,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18"/>
-        <ComboBox HorizontalAlignment="Left" Margin="728,413,0,0" VerticalAlignment="Top" Width="132" Height="29"/>
-        <ComboBox HorizontalAlignment="Left" Margin="728,360,0,0" VerticalAlignment="Top" Width="132" Height="29"/>
-        <ComboBox HorizontalAlignment="Left" Margin="728,307,0,0" VerticalAlignment="Top" Width="132" Height="29" SelectionChanged="ComboBox_SelectionChanged"/>
-        <ComboBox HorizontalAlignment="Left" Margin="728,413,0,0" VerticalAlignment="Top" Width="132" Height="29"/>
-        <ComboBox HorizontalAlignment="Left" Margin="728,466,0,0" VerticalAlignment="Top" Width="132" Height="29"/>
-        <Slider HorizontalAlignment="Left" Margin="728,254,0,0" VerticalAlignment="Top" Height="29" Width="368" ValueChanged="Slider_ValueChanged" FontSize="18"/>
-        <ProgressBar HorizontalAlignment="Left" Height="16" Margin="126,98,0,0" VerticalAlignment="Top" Width="1009"/>
-        <Label Content="Basic Information" HorizontalAlignment="Left" Margin="149,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <Label Content="Ingredients and Applicants" HorizontalAlignment="Left" Margin="399,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <Label Content="Instructions" HorizontalAlignment="Left" Margin="752,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
-        <Label Content="Preview" HorizontalAlignment="Left" Margin="1005,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48"/>
+        <Canvas HorizontalAlignment="Left" Height="792" Margin="10,0,0,0" VerticalAlignment="Top" Width="1260" Background="White"/>
+        <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" Margin="478,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="36"/>
+        <Grid x:Name="progressBar" HorizontalAlignment="Left" Height="18" Margin="112,101,0,0" Grid.Column="4" VerticalAlignment="Top" Width="1040" Grid.Row="1" Grid.ColumnSpan="4">
+            <Button Content="" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="260"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="260" Background="Gray"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="520,0,0,0" VerticalAlignment="Top" Width="260"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="780,0,0,0" VerticalAlignment="Top" Width="260"/>
+        </Grid>
 
-        <ScrollViewer Foreground="#FFC17D7D" Margin="0,172,0,-637">
-            <StackPanel>
+        <Label Content="Basic Information" HorizontalAlignment="Left" Margin="175,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
+        <Label Content="Ingredients and Applicants" HorizontalAlignment="Left" Margin="398,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
+        <Label Content="Instructions" HorizontalAlignment="Left" Margin="706,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
+        <Label Content="Preview" HorizontalAlignment="Left" Margin="986,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
 
+        <ScrollViewer HorizontalAlignment="Left" Height="633" Margin="0,167,0,0" VerticalAlignment="Top" Width="1270">
+            <Canvas Height="623" Width="1240">
+                <Image x:Name="image1" Height="150" Source="Image6.png" Stretch="Fill" Width="150" Canvas.Left="326" Canvas.Top="67"/>
+                <Image x:Name="image2" Source="Image-placeholder.png" Stretch="Fill" Width="150" Height="150" Canvas.Left="122" Canvas.Top="67"/>
 
-
-            </StackPanel>
+                <Label Content="Recipe Name: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="50"/>
+                <TextBox HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="50"/>
+                <Label Content="Difficulty: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" RenderTransformOrigin="0.575,0.215" Canvas.Left="585" Canvas.Top="98"/>
+                <Label Content="Prep Time: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="151"/>
+                <Label Content="Cook Time: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="204"/>
+                <Label Content="Portion: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="257"/>
+                <Label Content="Constraint: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="310"/>
+                <Label Content="Note: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="363"/>
+                <TextBox HorizontalAlignment="Left" Height="197" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="363"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="204"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" SelectionChanged="ComboBox_SelectionChanged" Canvas.Left="728" Canvas.Top="151"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="257"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="310"/>
+                <Slider HorizontalAlignment="Left" VerticalAlignment="Top" Height="29" Width="368" ValueChanged="Slider_ValueChanged" FontSize="18" Canvas.Left="728" Canvas.Top="98"/>
+            </Canvas>
         </ScrollViewer>
 
     </Grid>
