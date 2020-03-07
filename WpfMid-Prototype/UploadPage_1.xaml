@@ -6,44 +6,50 @@
       xmlns:local="clr-namespace:WpfMid_Prototype"
       mc:Ignorable="d" 
       d:DesignHeight="800" d:DesignWidth="1280"
-      Title="UploadPage">
+      Title="UploadPage_1">
 
     <Grid RenderTransformOrigin="0.471,0.055" Opacity="0.8">
-        <Canvas HorizontalAlignment="Left" Height="792" Margin="10,0,0,0" VerticalAlignment="Top" Width="1260" Background="White"/>
-        <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" Margin="478,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="36"/>
-        <Grid x:Name="progressBar" HorizontalAlignment="Left" Height="18" Margin="112,101,0,0" Grid.Column="4" VerticalAlignment="Top" Width="1040" Grid.Row="1" Grid.ColumnSpan="4">
-            <Button Content="" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="260"/>
-            <Button Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="260" Background="Gray"/>
-            <Button Content="" HorizontalAlignment="Left" Margin="520,0,0,0" VerticalAlignment="Top" Width="260"/>
-            <Button Content="" HorizontalAlignment="Left" Margin="780,0,0,0" VerticalAlignment="Top" Width="260"/>
-        </Grid>
+        <Canvas HorizontalAlignment="Left" Height="792" VerticalAlignment="Top" Width="1280" Background="#e8e8e8">
+            <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" Margin="454,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="40"/>
+            <Grid x:Name="progressBar" HorizontalAlignment="Left" Height="18" Margin="112,101,0,0" Grid.Column="4" VerticalAlignment="Top" Width="1040" Grid.Row="1" Grid.ColumnSpan="4">
+                <Button Content="" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="260"/>
+                <Button Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="260" Background="Gray"/>
+                <Button Content="" HorizontalAlignment="Left" Margin="520,0,0,0" VerticalAlignment="Top" Width="260"/>
+                <Button Content="" HorizontalAlignment="Left" Margin="780,0,0,0" VerticalAlignment="Top" Width="260"/>
+            </Grid>
+        </Canvas>
 
         <Label Content="Basic Information" HorizontalAlignment="Left" Margin="175,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
         <Label Content="Ingredients and Applicants" HorizontalAlignment="Left" Margin="398,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
         <Label Content="Instructions" HorizontalAlignment="Left" Margin="706,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
         <Label Content="Preview" HorizontalAlignment="Left" Margin="986,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
 
-        <ScrollViewer HorizontalAlignment="Left" Height="633" Margin="0,167,0,0" VerticalAlignment="Top" Width="1270">
-            <Canvas Height="623" Width="1240">
-                <Image x:Name="image1" Height="150" Source="Image6.png" Stretch="Fill" Width="150" Canvas.Left="326" Canvas.Top="67"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="633" Margin="0,167,0,0" VerticalAlignment="Top" Width="1280">
+            <Canvas Background="#fafafa" Width="1280">
+                <Image x:Name="image1" Height="150" Source="Image6.png" Stretch="Fill" Width="150" Canvas.Left="316" Canvas.Top="67"/>
                 <Image x:Name="image2" Source="Image-placeholder.png" Stretch="Fill" Width="150" Height="150" Canvas.Left="122" Canvas.Top="67"/>
 
-                <Label Content="Recipe Name: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="50"/>
-                <TextBox HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="50"/>
+                <Label Content="Recipe Name: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="45"/>
+                <TextBox HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="45"/>
                 <Label Content="Difficulty: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" RenderTransformOrigin="0.575,0.215" Canvas.Left="585" Canvas.Top="98"/>
                 <Label Content="Prep Time: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="151"/>
                 <Label Content="Cook Time: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="204"/>
                 <Label Content="Portion: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="257"/>
                 <Label Content="Constraint: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="310"/>
                 <Label Content="Note: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="363"/>
-                <TextBox HorizontalAlignment="Left" Height="197" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="363"/>
+                <TextBox HorizontalAlignment="Left" Height="138" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="363"/>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="204"/>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" SelectionChanged="ComboBox_SelectionChanged" Canvas.Left="728" Canvas.Top="151"/>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="257"/>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="29" Canvas.Left="728" Canvas.Top="310"/>
                 <Slider HorizontalAlignment="Left" VerticalAlignment="Top" Height="29" Width="368" ValueChanged="Slider_ValueChanged" FontSize="18" Canvas.Left="728" Canvas.Top="98"/>
+                <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="866" Canvas.Top="151"/>
+                <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="866" Canvas.Top="204"/>
+                <Button Content="Save and Exit" FontSize="20" FontFamily="Calibri" Canvas.Left="830" Canvas.Top="566" Width="175" Height="33"/>
+                <Button Content="Next Step" FontSize="20" FontFamily="Calibri" Canvas.Left="1041" Canvas.Top="566" Width="175" Height="33"/>
             </Canvas>
         </ScrollViewer>
+
 
     </Grid>
 </Page>
