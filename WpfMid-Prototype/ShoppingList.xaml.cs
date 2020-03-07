@@ -16,15 +16,13 @@ using System.Windows.Shapes;
 namespace WpfMid_Prototype
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ShoppingList.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ShoppingList : Page
     {
-        public MainWindow()
+        public ShoppingList()
         {
-            
             InitializeComponent();
-            
         }
     }
 }
