@@ -10,7 +10,7 @@
 
     <Grid RenderTransformOrigin="0.471,0.055" Opacity="0.8">
         <Canvas HorizontalAlignment="Left" Height="792" VerticalAlignment="Top" Width="1280" Background="#e8e8e8">
-            <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" Margin="454,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="40"/>
+            <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="40" Canvas.Left="468" Canvas.Top="32"/>
             <Grid x:Name="progressBar" HorizontalAlignment="Left" Height="18" Margin="112,101,0,0" Grid.Column="4" VerticalAlignment="Top" Width="1040" Grid.Row="1" Grid.ColumnSpan="4">
                 <Button Content="" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="260"/>
                 <Button Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="260"/>
@@ -28,17 +28,18 @@
             <Canvas Background="#fafafa" Width="1280">
                 <Image x:Name="image1" Height="130" Source="Image_Placeholder.png" Stretch="Fill" Width="130" Canvas.Left="170" Canvas.Top="261"/>
                 <Image x:Name="image2" Source="Image_Placeholder.png" Stretch="Fill" Width="130" Height="130" Canvas.Left="170" Canvas.Top="67"/>
-                <TextBox HorizontalAlignment="Left" Height="130" BorderBrush="Black" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="553" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="392" Canvas.Top="67"/>
-                <TextBox HorizontalAlignment="Left" Height="130" BorderBrush="Black" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="553" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="392" Canvas.Top="261"/>
-                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="85" Height="30" Canvas.Left="1002" Canvas.Top="306"/>
-                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="85" Height="30" SelectionChanged="ComboBox_SelectionChanged" Canvas.Left="998" Canvas.Top="118"/>
-                <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="1092" Canvas.Top="118"/>
-                <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="1092" Canvas.Top="306"/>
+                <TextBox HorizontalAlignment="Left" Height="130" BorderBrush="Black" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="553" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="371" Canvas.Top="67"/>
+                <TextBox HorizontalAlignment="Left" Height="130" BorderBrush="Black" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="553" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="371" Canvas.Top="261"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="85" Height="30" Canvas.Left="967" Canvas.Top="303"/>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="85" Height="30" SelectionChanged="ComboBox_SelectionChanged" Canvas.Left="963" Canvas.Top="115"/>
+                <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="1058" Canvas.Top="115"/>
+                <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="1058" Canvas.Top="303"/>
                 <Button Content="Save and Exit" FontSize="20" FontFamily="Calibri" Canvas.Left="830" Canvas.Top="566" Width="175" Height="33"/>
                 <Button Content="Next Step" FontSize="20" FontFamily="Calibri" Canvas.Left="1041" Canvas.Top="566" Width="175" Height="33"/>
                 <Button Content="Previous" FontSize="20" FontFamily="Calibri" Canvas.Left="69" Canvas.Top="566" Width="175" Height="33"/>
                 <Label Content="1." FontSize="20" FontFamily="Californian FB" Canvas.Left="105" Canvas.Top="67"/>
                 <Label Content="2." FontSize="20" FontFamily="Californian FB" Canvas.Left="102" Canvas.Top="261"/>
+                <Image Height="28" Source="Image_Quit.png" Canvas.Left="1121" Canvas.Top="303" Width="28"/>
             </Canvas>
         </ScrollViewer>
         <Image Source="Image_Add.png" Margin="890,630,362,142"/>

@@ -10,7 +10,7 @@
 
     <Grid RenderTransformOrigin="0.471,0.055" Opacity="0.8">
         <Canvas HorizontalAlignment="Left" Height="792" VerticalAlignment="Top" Width="1280" Background="#e8e8e8">
-            <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" Margin="454,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="40"/>
+            <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="40" Canvas.Left="468" Canvas.Top="32"/>
             <Grid x:Name="progressBar" HorizontalAlignment="Left" Height="18" Margin="112,101,0,0" Grid.Column="4" VerticalAlignment="Top" Width="1040" Grid.Row="1" Grid.ColumnSpan="4">
                 <Button Content="" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="260" Background="Gray"/>
                 <Button Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="260"/>
@@ -35,7 +35,6 @@
                 <TextBox Text="Substitution" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="422" TextWrapping="Wrap" Canvas.Top="56" Width="200" Opacity="0.5"/>
                 <TextBox Text="Quanity" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="727" TextWrapping="Wrap" Canvas.Top="56" Width="149" Opacity="0.5"/>
                 <ComboBox Canvas.Left="910" Canvas.Top="56" Width="120" Height="29"/>
-                <Image Height="28" Source="Image_Quit.png" Canvas.Left="1065" Canvas.Top="57" Width="28"/>
                 <TextBox Text="Ingredient" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="189" TextWrapping="Wrap" Canvas.Top="108" Width="200" Opacity="0.5"/>
                 <TextBox Text="Substitution" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="422" TextWrapping="Wrap" Canvas.Top="108" Width="200" Opacity="0.5"/>
                 <TextBox Text="Quanity" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="727" TextWrapping="Wrap" Canvas.Top="108" Width="149" Opacity="0.5"/>
@@ -55,14 +54,15 @@
                 <TextBox Text="Substitution" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="422" TextWrapping="Wrap" Canvas.Top="56" Width="200" Opacity="0.5"/>
                 <TextBox Text="Quanity" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="727" TextWrapping="Wrap" Canvas.Top="56" Width="149" Opacity="0.5"/>
                 <ComboBox Canvas.Left="910" Canvas.Top="56" Width="120" Height="29"/>
-                <Image Height="28" Source="Image_Quit.png" Canvas.Left="1065" Canvas.Top="57" Width="28"/>
-                <Image Height="28" Source="Image_Add.png" Canvas.Left="830" Canvas.Top="283" Width="28"/>
-                <Label Content="Add more ingredient" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="870" Canvas.Top="283"/>
-                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="189" TextWrapping="Wrap" Canvas.Top="382" Width="200" Opacity="0.5"/>
-                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="422" TextWrapping="Wrap" Canvas.Top="382" Width="200" Opacity="0.5"/>
-                <Image Height="28" Source="Image_Add.png" Canvas.Left="832" Canvas.Top="454" Width="28"/>
-                <Label Content="Add more Applicant" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="870" Canvas.Top="454"/>
-                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="660" TextWrapping="Wrap" Canvas.Top="382" Width="200" Opacity="0.5"/>
+                <Image Height="28" Source="Image_Add.png" Canvas.Left="847" Canvas.Top="296" Width="28"/>
+                <Label Content="Add more ingredient" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="887" Canvas.Top="296"/>
+                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="189" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
+                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="498" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
+                <Image Height="28" Source="Image_Add.png" Canvas.Left="849" Canvas.Top="467" Width="28"/>
+                <Label Content="Add more Applicant" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="887" Canvas.Top="467"/>
+                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="805" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
+                <Image Height="28" Source="Image_Quit.png" Canvas.Left="714" Canvas.Top="396" Width="28"/>
+                <Image Height="28" Source="Image_Quit.png" Canvas.Left="1020" Canvas.Top="396" Width="28"/>
 
 
             </Canvas>
