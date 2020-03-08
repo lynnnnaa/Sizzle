@@ -24,5 +24,12 @@ namespace WpfMid_Prototype
         {
             InitializeComponent();
         }
+
+        private void addNew_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }
