@@ -8,16 +8,18 @@
       d:DesignHeight="800" d:DesignWidth="1280"
       Title="HomePage">
 
-    <Grid RenderTransformOrigin="0.471,0.055" Opacity="0.8" Margin="0,0,0,-2">
-        <Canvas HorizontalAlignment="Left" Height="792" Margin="10,0,0,0" VerticalAlignment="Top" Width="1260" Background="White"/>
+    <Grid RenderTransformOrigin="0.471,0.055" Margin="0,0,0,-2">
+        <Canvas HorizontalAlignment="Left" Height="792" Margin="10,0,0,0" VerticalAlignment="Top" Width="1270" Background="White"/>
 
-        <ScrollViewer Foreground="#FFC17D7D" Margin="-2,113,2,0">
+        <ScrollViewer Foreground="Black" Margin="2,143,-2,0">
 
-            <StackPanel Height="1570">
-                <Label Content="Right Now" HorizontalAlignment="Left" Margin="90,50,0,0" VerticalAlignment="Top" Width="140" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="{x:Null}"/>
+            <StackPanel>
+                <Label Content="Right Now" HorizontalAlignment="Left" Margin="90,20,0,0" VerticalAlignment="Top" Width="140" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="{x:Null}"/>
                 <Image x:Name="image1" Margin="93,50,1000,80" Height="172" Source="Image5.png" Stretch="Fill" Width="166"/>
-                <Image x:Name="image3" Margin="93,-260,100,80" Height="176" Source="Image7.png" Stretch="Fill" Width="184"/>
+
+
                 <Image x:Name="image2" Margin="93,-260,550,80" Height="182" Source="Image6.png" Stretch="Fill" Width="183"/>
+                <Image x:Name="image3" Margin="93,-260,100,80" Height="177" Source="Image7.png" Stretch="Fill" Width="183"/>
                 <Image x:Name="image4" Margin="93,-260,-350,80" Height="178" Source="Image8.png" Stretch="Fill" Width="183"/>
                 <Image x:Name="image5" Margin="93,-260,-800,80" Height="177" Source="Image10.png" Stretch="Fill" Width="184"/>
                 <Label Content="Pork Belly " HorizontalAlignment="Left" Margin="120,-70,0,0" VerticalAlignment="Top" Width="99" FontSize="18" Height="42"/>
@@ -27,11 +29,12 @@
                 <Label Content="Pasta" HorizontalAlignment="Left" Margin="360,-70,0,0" VerticalAlignment="Top" Width="99" FontSize="18"/>
                 <Label Content="Category" HorizontalAlignment="Left" Margin="100,0,0,0" VerticalAlignment="Top" Width="127" FontSize="24" FontFamily="Verdana" RenderTransformOrigin="0.704,0.285" Height="41" Background="{x:Null}"/>
                 <Image x:Name="image21" Height="178" Margin="60,60,930,0" Source="Image24.png" Stretch="Fill" Width="182"/>
-                <Image x:Name="image22" Height="170"  Margin="-420,-180,0,0" Source="Image26.png" Stretch="Fill" Width="175"/>
-                <Image x:Name="image23" Height="165" Margin="20,-180,0,0" Source="Image27.png" Stretch="Fill" Width="176"/>
-                <Image x:Name="image24" Height="170"  Margin="450,-180,0,0" Source="Image28.png" Stretch="Fill" Width="178"/>
-                <Image x:Name="image25" Height="170" Margin="900,-180,0,0" Source="Image29.png" Stretch="Fill" Width="177"/>
-                <Image x:Name="image31" Height="172" Margin="-870,100,0,0" Source="Image30.png" Stretch="Fill" Width="175"/>
+                <Image Height="100" Width="100"/>
+                <Image x:Name="image22" Height="170"  Margin="-420,-380,0,0" Source="Image26.png" Stretch="Fill" Width="175"/>
+                <Image x:Name="image23" Height="165" Margin="20,-380,0,0" Source="Image27.png" Stretch="Fill" Width="176"/>
+                <Image x:Name="image24" Height="170"  Margin="450,-380,0,0" Source="Image28.png" Stretch="Fill" Width="178"/>
+                <Image x:Name="image25" Height="170" Margin="900,-380,0,0" Source="Image29.png" Stretch="Fill" Width="177"/>
+                <Image x:Name="image31" Height="172" Margin="-870,-0,0,0" Source="Image30.png" Stretch="Fill" Width="175"/>
                 <Image x:Name="image32" Height="171" Margin="-870,-170,-450,0" Source="Image31.png" Stretch="Fill" Width="171"/>
                 <Image x:Name="image33" Height="172"  Margin="-870,-170,-900,0" Source="Image32.png" Stretch="Fill" Width="173"/>
                 <Label Content="Pastry" FontSize="20"  Margin="-1770,-500,-900,0" Height="39" Width="79"/>
@@ -42,21 +45,24 @@
                 <Label Content="Vegetable" FontSize="20"  Margin="-1770,-00,-900,0" Height="39" Width="102"/>
                 <Label Content="Drinks" FontSize="20"  Margin="-1330,-40,-900,0" Height="39" Width="79"/>
                 <Label Content="Others" FontSize="20"  Margin="-870,-40,-900,0" Height="39" Width="79"/>
-                <Label Content="Popular" FontSize="24" Margin="-1800,80,-900,0" Height="51" Width="111" Background="{x:Null}" RenderTransformOrigin="-0.814,0.986"/>
-                <Label Content="Following" FontSize="24" Margin="-1800,80,-900,0" Height="51" Width="111" Background="{x:Null}" RenderTransformOrigin="-0.814,0.986"/>
-                <Label Content="Sved Recipe" FontSize="24" Margin="-1800,80,-900,0" Height="51" Width="139" Background="{x:Null}" RenderTransformOrigin="-0.814,0.986"/>
+                <Label Content="Popular" FontSize="24" Margin="-1850,80,-900,0" Height="51" Width="111" Background="{x:Null}" RenderTransformOrigin="-0.814,0.986" FontFamily="Verdana"/>
+                <Label Content="Following" FontSize="24" Margin="-1830,80,-900,0" Height="51" Width="131" Background="{x:Null}" RenderTransformOrigin="-0.814,0.986" FontFamily="Verdana"/>
+                <Label Content="Saved Recipes" FontSize="24" Margin="-1770,80,-900,0" Height="51" Width="189" Background="{x:Null}" RenderTransformOrigin="-0.814,0.986" FontFamily="Verdana"/>
+
+
             </StackPanel>
         </ScrollViewer>
 
-        <TextBox x:Name="textB" HorizontalAlignment="Left" Height="57" TextWrapping="Wrap" Text="Enter Keywords for Recipes" VerticalAlignment="Top" Width="376" FontSize="20" Background="{x:Null}" Margin="453,17,0,0"/>
-        <Button Content="Right Now" HorizontalAlignment="Left" Margin="276,89,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
-        <Button Content="Category" HorizontalAlignment="Left" Margin="424,88,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
-        <Button Content="Popular" HorizontalAlignment="Left" Margin="570,88,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
-        <Button Content="Following" HorizontalAlignment="Left" Margin="716,87,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
-        <Button Content="Saved Recipe" HorizontalAlignment="Left" Margin="860,87,0,0" VerticalAlignment="Top" Width="146" Height="46" Background="#FFF7F5EF" FontSize="22" RenderTransformOrigin="1.328,0.413"/>
+        <Canvas>
+            <TextBox x:Name="textB" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" Text="Enter Keywords for Recipes" VerticalAlignment="Top" Width="376" FontSize="20" Background="{x:Null}" Canvas.Left="453" Canvas.Top="35"/>
+            <Button Name="rightNow" Content="Right Now" HorizontalAlignment="Left" Margin="276,89,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
+            <Button Name="category" Content="Category" HorizontalAlignment="Left" Margin="424,88,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
+            <Button Name="popular" Content="Popular" HorizontalAlignment="Left" Margin="570,88,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
+            <Button Name="following" Content="Following" HorizontalAlignment="Left" Margin="716,87,0,0" VerticalAlignment="Top" Width="123" Height="46" Background="#FFF7F5EF" FontSize="22"/>
+            <Button Name="savedRecipe" Content="Saved Recipe" HorizontalAlignment="Left" Margin="860,87,0,0" VerticalAlignment="Top" Width="146" Height="46" Background="#FFF7F5EF" FontSize="22" RenderTransformOrigin="1.328,0.413"/>
+            <Label Content="Welcome John" HorizontalAlignment="Left" Margin="1068,35,0,0" VerticalAlignment="Top" Width="164" FontSize="22"/>
+            <Image Name="search" Source="Image36.png" Stretch="Fill" RenderTransformOrigin="1.382,0.474" Height="39" Canvas.Left="830" Canvas.Top="35" Width="37"/>
+        </Canvas>
 
-        <Image HorizontalAlignment="Left" Height="100" Margin="748,587,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBox HorizontalAlignment="Left" Height="39" Margin="1064,17,0,0" TextWrapping="Wrap" Text="Welcome John" VerticalAlignment="Top" Width="174" FontSize="22"/>
-        
     </Grid>
 </Page>

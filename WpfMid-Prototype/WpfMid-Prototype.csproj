@@ -58,18 +58,6 @@
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UploadPage_4.xaml.cs">
-      <DependentUpon>UploadPage_4.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UploadPage_3.xaml.cs">
-      <DependentUpon>UploadPage_3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UploadPage_2.xaml.cs">
-      <DependentUpon>UploadPage_2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UploadPage_1.xaml.cs">
-      <DependentUpon>UploadPage_1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ShoppingList.xaml.cs">
       <DependentUpon>ShoppingList.xaml</DependentUpon>
     </Compile>
@@ -89,22 +77,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="UploadPage_4.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UploadPage_3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UploadPage_2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UploadPage_1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="ShoppingList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -191,9 +163,6 @@
     <Resource Include="Image18.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="left-arrow-vector-icon-isolated-on-transparent-background-left-arrow-transparency-logo-concept-R1PKT1 %282%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Image19.png" />
   </ItemGroup>
   <ItemGroup>
@@ -242,10 +211,19 @@
     <Resource Include="Image_Placeholder.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image_Quit.png" />
+    <Resource Include="Image_Add.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image_Add.png" />
+    <Resource Include="54-545001_search-icon-gambar-search-image-icon-transparent-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image36.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
