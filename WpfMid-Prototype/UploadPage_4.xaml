@@ -25,7 +25,7 @@
         <Label Content="Preview" HorizontalAlignment="Left" Margin="986,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
 
         <ScrollViewer HorizontalAlignment="Left" Height="917" Margin="0,167,0,-284" VerticalAlignment="Top" Width="1280">
-            <Canvas Background="#fafafa" Width="1280" Height="848">
+            <Canvas Background="#fafafa" Width="1280" Height="844">
 
                 <Canvas Background="#FFF0F0F0" Height="750" Canvas.Left="33" Canvas.Top="10" Width="1200">
                     <Image x:Name="image1" Height="220" Source="Image7.png" Stretch="Fill" Width="220" Canvas.Left="386" Canvas.Top="10"/>

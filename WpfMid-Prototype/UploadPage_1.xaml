@@ -27,7 +27,7 @@
         <ScrollViewer HorizontalAlignment="Left" Height="633" Margin="0,167,0,0" VerticalAlignment="Top" Width="1280">
             <Canvas Background="#fafafa" Width="1280">
                 <Image x:Name="image1" Height="150" Source="Image7.png" Stretch="Fill" Width="150" Canvas.Left="316" Canvas.Top="67"/>
-                <Image x:Name="image2" Source="Image-placeholder.png" Stretch="Fill" Width="150" Height="150" Canvas.Left="122" Canvas.Top="67"/>
+                <Image x:Name="image2" Source="Image_Placeholder.png" Stretch="Fill" Width="150" Height="150" Canvas.Left="122" Canvas.Top="67"/>
 
                 <Label Content="Recipe Name: &#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="585" Canvas.Top="45"/>
                 <TextBox HorizontalAlignment="Left" Height="29" BorderBrush="Black" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged" FontSize="18" Canvas.Left="728" Canvas.Top="45"/>
