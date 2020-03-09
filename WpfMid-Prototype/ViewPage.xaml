@@ -1,0 +1,141 @@
+﻿<Page x:Class="WpfMid_Prototype.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfMid_Prototype"
+      mc:Ignorable="d" 
+      d:DesignHeight="750" d:DesignWidth="1280"
+      Title="Page1">
+
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="792" VerticalAlignment="Top" Width="1280" Background="White">
+
+            <Canvas Background="#FFF0F0F0" Height="792" Width="1280">
+
+                <Canvas Height="220" Background="White" Canvas.Left="10" Canvas.Top="10" Width="310">
+
+                    <Image Height="40" Source="Image_User.png" Canvas.Left="46" Canvas.Top="170" Width="43"/>
+                    <Label Content="J.K.Cook" FontSize="22" FontFamily="Calibri" Canvas.Left="94" Canvas.Top="163" FontWeight="Bold"/>
+                    <Label Content="Love it vagen" FontSize="16" FontFamily="Calibri" Canvas.Left="94" Canvas.Top="186"/>
+                    <Button Content="Follow" FontSize="20" FontFamily="Calibri" Canvas.Left="215" Canvas.Top="182" Width="76"/>
+                    <Label Content="Veggie Tacos" FontSize="30" FontFamily="Calibri" FontWeight="Bold" Background="#e8e8e8" Width="310"/>
+                    <Label Content="Portion: 2" FontSize="18" Canvas.Left="10" Canvas.Top="78"/>
+                    <Label Content="Difficulity: " FontSize="18" Canvas.Left="10" Canvas.Top="102"/>
+                    <Label Content="By" FontSize="20" FontFamily="Calibri" Canvas.Left="10" Canvas.Top="176"/>
+                    <Image Height="28" Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (3).jpg" Canvas.Left="94" Canvas.Top="102" Width="110"/>
+                    <Label Content="- Dairy Free" FontSize="16" Canvas.Left="208" FontStyle="Italic"/>
+                    <Label Content="- Vegetarian" FontSize="16" Canvas.Left="204" Canvas.Top="16" FontStyle="Italic"/>
+                    <Label Content="Star: " FontSize="18" Canvas.Left="10" Canvas.Top="54"/>
+                    <Image Height="28" Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (3).jpg" Canvas.Left="55" Canvas.Top="57" Width="110"/>
+                    <Label Content="Prep Time: 15min    CookTime: 1h" FontSize="18" Canvas.Left="10" Canvas.Top="126"/>
+                </Canvas>
+                <Canvas Height="220" Background="White" Canvas.Left="340" Canvas.Top="10" Width="939">
+                    <Image Height="220" Source="Image7.png" Stretch="Fill" Width="226" Canvas.Left="135"/>
+                </Canvas>
+                <Canvas Height="542" Background="White" Canvas.Left="10" Canvas.Top="240" Width="310">
+
+                    <TabControl TabStripPlacement="Top" Width="310">
+                        <TabItem Header="Ingredients" Width="110" FontSize="20" FontFamily="Calibri">
+                            <Grid Background="#FFE5E5E5"/>
+                        </TabItem>
+                        <TabItem Header="Applicances" Width="110" FontSize="20" FontFamily="Calibri">
+                            <Grid Background="#FFE5E5E5"/>
+                        </TabItem>
+                        <TabItem Header="Note" Width="80" FontSize="20" FontFamily="Calibri">
+                            <Grid Background="#FFE5E5E5"/>
+                        </TabItem>
+                    </TabControl>
+
+                    <Border BorderThickness="1" Height="38" Background="#e8e8e8" Canvas.Top="108" Width="310" Opacity="0.495"/>
+                    <Border BorderThickness="1" Height="38" Background="#e8e8e8" Canvas.Top="108" Width="310" Opacity="0.495"/>
+                    <Border BorderThickness="1" Height="38" Background="#e8e8e8" Canvas.Top="268" Width="310" Opacity="0.495"/>
+                    <Border BorderThickness="1" Height="38" Background="#e8e8e8" Canvas.Top="188" Width="310" Opacity="0.495"/>
+                    <TextBlock Canvas.Left="35" TextWrapping="Wrap" FontFamily="Californian FB" FontSize="20" LineStackingStrategy="BlockLineHeight" LineHeight="40" Canvas.Top="62" Height="292" Width="172" FontWeight="Bold">
+                            <Run Text="Red Quinoa"/>
+                            <LineBreak/>
+                            <Run Text="Vegetable Broth"/>
+                            <LineBreak/>
+                            <Run Text="Water"/>
+                            <LineBreak/>
+                            <Run Text="Salsa"/>
+                            <LineBreak/>
+                            <Run Text="Ground Cumin"/>
+                            <LineBreak/>
+                            <Run Text="Ground Chilipower"/>
+                            <LineBreak/>
+                            <Run Text="Garlic Powder"/>
+                    </TextBlock>
+
+                    <TextBlock Canvas.Left="212" TextWrapping="Wrap" FontFamily="Californian FB" FontSize="20" LineStackingStrategy="BlockLineHeight" LineHeight="40" Canvas.Top="62" Height="292" Width="56" RenderTransformOrigin="0.271,0.514">
+                            <Run Text="1 cup"/>
+                            <LineBreak/>
+                            <Run Text="1 cup"/>
+                            <LineBreak/>
+                            <Run Text="1 cup"/>
+                            <LineBreak/>
+                            <Run Text="1 cup"/>
+                            <LineBreak/>
+                            <Run Text="1 cup"/>
+                            <LineBreak/>
+                            <Run Text="1 cup"/>
+                            <LineBreak/>
+                            <Run Text="1 cup"/>
+                    </TextBlock>
+
+                    <Image Height="20" Source="Image_Add.png" Canvas.Left="273" Canvas.Top="76" Width="20"/>
+                    <Image Height="20" Source="Image_Refresh.png" Canvas.Left="10" Canvas.Top="76" Width="20"/>
+                    <Image Height="20" Source="Image_Refresh.png" Canvas.Left="10" Canvas.Top="156" Width="20"/>
+                    <Image Height="20" Source="Image_Refresh.png" Canvas.Left="10" Canvas.Top="114" Width="20"/>
+                    <Image Height="20" Source="Image_Refresh.png" Canvas.Left="10" Canvas.Top="316" Width="20"/>
+                    <Image Height="20" Source="Image_Refresh.png" Canvas.Left="10" Canvas.Top="276" Width="20"/>
+                    <Image Height="20" Source="Image_Refresh.png" Canvas.Left="10" Canvas.Top="236" Width="20"/>
+                    <Image Height="20" Source="Image_Refresh.png" Canvas.Left="10" Canvas.Top="197" Width="20"/>
+                    <Image Height="20" Source="Image_Add.png" Canvas.Left="273" Canvas.Top="316" Width="20"/>
+                    <Image Height="20" Source="Image_Add.png" Canvas.Left="273" Canvas.Top="276" Width="20"/>
+                    <Image Height="20" Source="Image_Add.png" Canvas.Left="273" Canvas.Top="236" Width="20"/>
+                    <Image Height="20" Source="Image_Add.png" Canvas.Left="273" Canvas.Top="197" Width="20"/>
+                    <Image Height="20" Source="Image_Add.png" Canvas.Left="273" Canvas.Top="156" Width="20"/>
+                    <Image Height="20" Source="Image_Add.png" Canvas.Left="273" Canvas.Top="114" Width="20"/>
+                    <Button Content="Add to your shopping list" FontSize="20" FontFamily="Calibri" Canvas.Left="10" Canvas.Top="504" Width="283"/>
+                    <Image Height="24" Source="Image_List.png" Canvas.Left="254" Canvas.Top="504" Width="39"/>
+
+                </Canvas>
+
+            </Canvas>
+
+            <ScrollViewer HorizontalAlignment="Left" Height="542" VerticalAlignment="Top" Width="944" Canvas.Left="336" Canvas.Top="240">
+                <Canvas Height="542" Background="White" Canvas.Left="366" Canvas.Top="240" Width="924">
+                    <TabControl TabStripPlacement="Top" Width="924">
+                        <TabItem Header="Instruction" Width="300" FontSize="20" FontFamily="Calibri">
+                            <Grid Background="#FFE5E5E5"/>
+
+
+                        </TabItem>
+                        <TabItem Header="Comment" Width="300" FontSize="20" FontFamily="Calibri">
+                            <Grid Background="#FFE5E5E5"/>
+
+
+                        </TabItem>
+                    </TabControl>
+                    <TextBlock Canvas.Left="77" TextWrapping="Wrap" Text="1. Heat a medium saucepan over medium heat. Once hot, add rinsed." FontFamily="Californian FB" FontSize="20" Canvas.Top="58" Height="56" Width="498"/>
+                    <Image Height="40" Source="Image_Clock.png" Canvas.Left="852" Canvas.Top="58" Width="46"/>
+                    <Border BorderThickness="1" Height="78" Background="#e8e8e8" Canvas.Top="119" Width="924" Opacity="0.495"/>
+                    <TextBlock Canvas.Left="77" TextWrapping="Wrap" Text="2. Add Vegetable broth and water and bring back to a boil over medium heat." FontFamily="Californian FB" FontSize="20" Canvas.Top="136" Height="56" Width="498"/>
+                    <Image Height="40" Source="Image_Clock.png" Canvas.Left="852" Canvas.Top="136" Width="46"/>
+                    <TextBlock Canvas.Left="77" TextWrapping="Wrap" Text="3. Preheat oven to 375." FontFamily="Californian FB" FontSize="20" Canvas.Top="226" Height="56" Width="498"/>
+                    <Border BorderThickness="1" Height="78" Background="#e8e8e8" Canvas.Top="272" Width="924" Opacity="0.495"/>
+                    <TextBlock Canvas.Left="77" TextWrapping="Wrap" Text="4. Add cooked quina to a large mixing bowl and add remaining ingredients." FontFamily="Californian FB" FontSize="20" Canvas.Top="287" Height="56" Width="498"/>
+                    <TextBlock Canvas.Left="77" TextWrapping="Wrap" Text="5. Add cooked quina to a large mixing bowl and add remaining ingredients." FontFamily="Californian FB" FontSize="20" Canvas.Top="373" Height="56" Width="498"/>
+                    <Border BorderThickness="1" Height="78" Background="#e8e8e8" Canvas.Top="434" Width="924" Opacity="0.495"/>
+                    <TextBlock Canvas.Left="77" TextWrapping="Wrap" Text="6. Bake for 30 minutes." FontFamily="Californian FB" FontSize="20" Canvas.Top="462" Height="56" Width="498"/>
+                    <Image Height="40" Source="Image_Clock.png" Canvas.Left="852" Canvas.Top="452" Width="46"/>
+
+
+
+                </Canvas>
+            </ScrollViewer>
+
+        </Canvas>
+    </Grid>
+</Page>

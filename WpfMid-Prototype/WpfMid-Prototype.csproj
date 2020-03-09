@@ -58,6 +58,9 @@
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewPage.xaml.cs">
+      <DependentUpon>ViewPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ShoppingList.xaml.cs">
       <DependentUpon>ShoppingList.xaml</DependentUpon>
     </Compile>
@@ -89,6 +92,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ViewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ShoppingList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -250,7 +257,7 @@
   <ItemGroup>
     <Resource Include="Image36.png" />
   </ItemGroup>
-    <ItemGroup>
+  <ItemGroup>
     <Resource Include="5-star-rating-icon-isolated-badge-collection-vector-24070448 %282%29.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -258,6 +265,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image_List.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image_Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image_Clock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

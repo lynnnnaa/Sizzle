@@ -42,11 +42,11 @@
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="132" Height="29" Canvas.Left="728" Canvas.Top="151"/>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="132" Height="29" Canvas.Left="728" Canvas.Top="257"/>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Width="132" Height="29" Canvas.Left="728" Canvas.Top="310"/>
-                <Slider HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" Height="29" Width="368" FontSize="18" Canvas.Left="728" Canvas.Top="98"/>
                 <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="866" Canvas.Top="151"/>
                 <Label Content="min" FontSize="20" FontFamily="Californian FB" Canvas.Left="866" Canvas.Top="204"/>
                 <Button Content="Save and Exit" FontSize="20" FontFamily="Calibri" Canvas.Left="830" Canvas.Top="566" Width="175" Height="33"/>
                 <Button Content="Next Step" FontSize="20" FontFamily="Calibri" Canvas.Left="1041" Canvas.Top="566" Width="175" Height="33"/>
+                <Image Height="47" Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (3).jpg" Canvas.Left="716" Canvas.Top="90" Width="146"/>
             </Canvas>
         </ScrollViewer>
 
