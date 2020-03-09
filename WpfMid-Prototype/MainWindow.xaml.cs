@@ -61,5 +61,15 @@ namespace WpfMid_Prototype
         {
             StartMain.Content = new UploadPage_4();
         }
+
+        private void AdvanceSearch_Click(object sender, RoutedEventArgs e)
+        {
+            StartMain.Content = new Search();
+        }
+
+        private void Profile_Click(object sender, RoutedEventArgs e)
+        {
+            StartMain.Content = new Profile();
+        }
     }
 }
