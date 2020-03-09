@@ -29,7 +29,7 @@
                         <Image x:Name="image1" Height="172" Source="Image5.png" Stretch="Fill" Width="166"/>
                         <Label Content="Pork Belly" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="141" FontSize="18" Height="32" Margin="68,0,0,0"/>
                         <Image Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (2).jpg" Stretch="Fill" Height="16" Margin="58,0,82,0"/>
-                        <Label  Content="1010" FontSize="8" Height="23" Margin="135,-18,32,0"/>
+                        <Label  Content="1010" FontSize="12" Height="23" Margin="135,-20,32,0"/>
                         <Label Content="Pork belly is all the rage in " Height="55" Margin="23,0"/>
                     </StackPanel>
 
@@ -37,28 +37,28 @@
                         <Image x:Name="image2"  Height="168" Source="Image6.png" Stretch="Fill" Width="183" Margin="14,0"/>
                         <Label Content="Pasta" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="141" FontSize="18" Height="32" Margin="68,0,0,0"/>
                         <Image Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (3).jpg" Stretch="Fill" Height="16" Margin="58,0,82,0" />
-                        <Label  Content="985" FontSize="8" Height="23" Margin="125,-18,32,0"/>
+                        <Label  Content="985" FontSize="12" Height="23" Margin="125,-20,32,0"/>
                     </StackPanel>
 
                     <StackPanel Name="veggieTaco" Orientation="Vertical" Width="212">
                         <Image x:Name="image3"  Height="166" Source="Image7.png" Stretch="Fill" Width="183" Margin="16,0"/>
                         <Label Content="Veggie Taco" HorizontalAlignment="Left" VerticalAlignment="Top" Width="109" FontSize="18" Margin="56,0,0,0"/>
                         <Image Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (2).jpg" Stretch="Fill" Height="16" Margin="58,0,82,0"/>
-                        <Label Content="2054"  FontSize="8" Height="23" Margin="125,-18,32,0"/>
+                        <Label Content="2054"  FontSize="12" Height="23" Margin="125,-20,32,0"/>
                     </StackPanel>
 
                     <StackPanel Name="burger" Orientation="Vertical" Width="212">
                         <Image x:Name="image4"  Height="165" Source="Image8.png" Stretch="Fill" Width="183"/>
                         <Label Content="Burger" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" FontSize="18" Margin="73,0,0,0"/>
                         <Image Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (2).jpg" Stretch="Fill" Height="16" Margin="58,0,82,0"/>
-                        <Label Content="743" FontSize="8" Height="23" Margin="125,-18,32,0"/>
+                        <Label Content="743" FontSize="12" Height="23" Margin="125,-20,32,0"/>
                     </StackPanel>
 
                     <StackPanel Name="milkTea" Orientation="Vertical" Width="212">
                         <Image x:Name="image5"  Height="161" Source="Image10.png" Stretch="Fill" Width="184"/>
                         <Label Content="Milk Tea " HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" FontSize="18" Margin="70,0,0,0"/>
                         <Image Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (3).jpg" Stretch="Fill" Height="16" Margin="58,0,82,0"/>
-                        <Label Content="685" FontSize="8" Height="23" Margin="125,-18,32,0"/>
+                        <Label Content="685" FontSize="12" Height="23" Margin="125,-20,32,0"/>
                     </StackPanel>
 
                 </StackPanel>
@@ -113,7 +113,7 @@
                         <Image  Height="172" Source="Image5.png" Stretch="Fill" Width="166"/>
                         <Label Content="Pork Belly" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="141" FontSize="18" Height="32" Margin="68,0,0,0"/>
                         <Image Source="5-star-rating-icon-isolated-badge-collection-vector-24070448 (2).jpg" Stretch="Fill" Height="16" Margin="58,0,82,0"/>
-                        <Label  Content="1010" FontSize="8" Height="23" Margin="135,-18,32,0"/>
+                        <Label  Content="1010" FontSize="12" Height="23" Margin="135,-20,32,0"/>
                         <Label Content="Pork belly is all the rage in " Height="55" Margin="23,0"/>
                     </StackPanel>
                 </StackPanel>
