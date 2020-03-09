@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local1="clr-namespace:WpfMid_Prototype"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="1280">
+        Title="MainWindow" Height="750" Width="1280">
     <Grid RenderTransformOrigin="0.471,0.055" Margin="0,0,0,-2">
 
         <Frame x:Name="StartMain" NavigationUIVisibility="Hidden"></Frame>
         <Image x:Name="menuButton" Source="Image13.png" Stretch="Fill" MouseMove="menuButton_MouseMove" MouseDown="menuButton_MouseDown" Margin="0,0,1168,668"/>
-        <Canvas Name="menu2" Margin="0,54,986,10" Background="White" MouseLeave="menu2_MouseLeave" Visibility="Hidden">
+        <Canvas Name="menu2" Margin="0,54,986,0" Background="White" MouseLeave="menu2_MouseLeave" Visibility="Hidden">
             <Button Content="LogOut" Height="70"  FontSize="36" Canvas.Top="505" Width="252"/>
             <Button Name="Home" Content="Home" Height="70"   FontSize="36" Canvas.Top="28" Width="252" Click="Home_Click"/>
             <Button Content="Advance Search" Height="70" FontSize="36" Canvas.Top="121" Width="252" RenderTransformOrigin="0.53,-0.357"/>
-            <Button Content="New Recipe" Height="70" FontSize="36" RenderTransformOrigin="0.589,3.316" Canvas.Top="215" Width="252"/>
-            <Button Content="Profile" Height="70" FontSize="36" Canvas.Top="312" Width="248" Canvas.Left="4"/>
-            <Button Name="ShoppintList" Content="Shopping List" Height="70" FontSize="36" Canvas.Top="408" Width="252" Click="ShoppintList_Click"/>
+            <Button Name="upload" Content="Upload Recipe" Height="70" FontSize="36" RenderTransformOrigin="0.589,3.316" Canvas.Top="215" Width="252"/>
+            <Button Content="Profile" Height="70" FontSize="36" Canvas.Top="412" Width="248"/>
+            <Button Name="ShoppintList" Content="Shopping List" Height="70" FontSize="36" Canvas.Top="314" Width="252" Click="ShoppintList_Click"/>
         </Canvas>
 
     </Grid>

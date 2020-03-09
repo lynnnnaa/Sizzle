@@ -250,5 +250,14 @@
   <ItemGroup>
     <Resource Include="Image36.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="5-star-rating-icon-isolated-badge-collection-vector-24070448 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="5-star-rating-icon-isolated-badge-collection-vector-24070448 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
