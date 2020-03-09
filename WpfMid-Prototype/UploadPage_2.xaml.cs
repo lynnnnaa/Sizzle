@@ -24,5 +24,10 @@ namespace WpfMid_Prototype
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

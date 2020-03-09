@@ -20,7 +20,7 @@
         </Canvas>
 
         <Label Content="Basic Information" HorizontalAlignment="Left" Margin="175,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
-        <Label Content="Ingredients and Applicants" HorizontalAlignment="Left" Margin="398,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
+        <Label Content="Ingredients and Appliances" HorizontalAlignment="Left" Margin="398,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
         <Label Content="Instructions" HorizontalAlignment="Left" Margin="706,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
         <Label Content="Preview" HorizontalAlignment="Left" Margin="986,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
 
@@ -56,11 +56,11 @@
                 <ComboBox Canvas.Left="910" Canvas.Top="56" Width="120" Height="29"/>
                 <Image Height="28" Source="Image_Add.png" Canvas.Left="847" Canvas.Top="296" Width="28"/>
                 <Label Content="Add more ingredient" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="887" Canvas.Top="296"/>
-                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="189" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
-                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="498" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
+                <TextBox Text="Appliances" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="189" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
+                <TextBox Text="Appliances" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="498" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
                 <Image Height="28" Source="Image_Add.png" Canvas.Left="849" Canvas.Top="467" Width="28"/>
-                <Label Content="Add more Applicant" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="887" Canvas.Top="467"/>
-                <TextBox Text="Applicant" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="805" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
+                <Label Content="Add more Appliances" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Californian FB" Height="48" Canvas.Left="887" Canvas.Top="467"/>
+                <TextBox Text="Appliances" Height="29" FontSize="20" FontFamily="Calibri" BorderBrush="Black" Canvas.Left="805" TextWrapping="Wrap" Canvas.Top="395" Width="200" Opacity="0.5"/>
                 <Image Height="28" Source="Image_Quit.png" Canvas.Left="714" Canvas.Top="396" Width="28"/>
                 <Image Height="28" Source="Image_Quit.png" Canvas.Left="1020" Canvas.Top="396" Width="28"/>
 

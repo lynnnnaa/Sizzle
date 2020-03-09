@@ -59,7 +59,7 @@ namespace WpfMid_Prototype
 
         private void upload_Click(object sender, RoutedEventArgs e)
         {
-            StartMain.Content = new UploadPage_1();
+            StartMain.Content = new UploadPage_4();
         }
     }
 }

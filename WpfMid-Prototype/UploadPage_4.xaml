@@ -47,7 +47,11 @@
                         <Label Content="Prep Time: 15min    CookTime: 1h" FontSize="18" Canvas.Left="10" Canvas.Top="126"/>
                     </Canvas>
                     <Canvas Height="220" Background="White" Canvas.Left="340" Canvas.Top="10" Width="939">
-                        <Image Height="220" Source="Image7.png" Stretch="Fill" Width="226" Canvas.Left="135"/>
+                        <Image Height="200" Source="Image7.png" Stretch="Fill" Width="205" Canvas.Left="354" Canvas.Top="10"/>
+                        <Image Height="100" Canvas.Left="538" Canvas.Top="95" Width="100"/>
+                        <Image Height="164" Source="Image37.png" Stretch="Fill" Width="188" Canvas.Left="120" Canvas.Top="31"/>
+                        <Image Height="164" Source="Image7.jpg" Stretch="Fill" Width="206" Canvas.Left="609" Canvas.Top="31"/>
+
                     </Canvas>
                     <Canvas Height="542" Background="White" Canvas.Left="10" Canvas.Top="240" Width="310">
 
