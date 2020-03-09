@@ -24,5 +24,7 @@ namespace WpfMid_Prototype
         {
             InitializeComponent();
         }
+
+
     }
 }
