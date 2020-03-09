@@ -9,7 +9,7 @@
       Title="UploadPage_1">
 
     <Grid RenderTransformOrigin="0.471,0.055" Opacity="0.8">
-        <Canvas HorizontalAlignment="Left" Height="792" VerticalAlignment="Top" Width="1280" Background="#e8e8e8">
+        <Canvas HorizontalAlignment="Left" Height="1066" VerticalAlignment="Top" Width="1280" Background="#e8e8e8" Margin="0,0,0,-266">
             <Label Content="Upload Recipe&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.461,-2.077" FontFamily="Arial Black" FontSize="40" Canvas.Left="468" Canvas.Top="32"/>
             <Grid x:Name="progressBar" HorizontalAlignment="Left" Height="18" Margin="112,101,0,0" Grid.Column="4" VerticalAlignment="Top" Width="1040" Grid.Row="1" Grid.ColumnSpan="4">
                 <Button Content="" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="260"/>
@@ -17,6 +17,9 @@
                 <Button Content="" HorizontalAlignment="Left" Margin="520,0,0,0" VerticalAlignment="Top" Width="260"/>
                 <Button Content="" HorizontalAlignment="Left" Margin="780,0,0,0" VerticalAlignment="Top" Width="260" Background="Gray"/>
             </Grid>
+            <Button Content="Save and Exit" FontSize="20" FontFamily="Calibri" Canvas.Left="882" Canvas.Top="1014" Width="154" Height="33"/>
+            <Button Content="Next Step" FontSize="20" FontFamily="Calibri" Canvas.Left="1068" Canvas.Top="1014" Width="152" Height="33"/>
+            <Button Content="Previous" FontSize="20" FontFamily="Calibri" Canvas.Top="1014" Width="312" Height="33" Canvas.Left="58"/>
         </Canvas>
 
         <Label Content="Basic Information" HorizontalAlignment="Left" Margin="175,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
@@ -25,9 +28,9 @@
         <Label Content="Preview" HorizontalAlignment="Left" Margin="986,119,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" Height="48"/>
 
         <ScrollViewer HorizontalAlignment="Left" Height="846" Margin="0,167,0,-213" VerticalAlignment="Top" Width="1280">
-            <Canvas Background="#fafafa" Width="1280" Height="846">
+            <Canvas Background="#fafafa" Width="1280" Height="795">
 
-                <Canvas Background="#FFF0F0F0" Height="792" Width="1280">
+                <Canvas Background="#FFF0F0F0" Height="792" Width="1280" Canvas.Top="-32">
 
                     <Canvas Height="220" Background="White" Canvas.Left="10" Canvas.Top="10" Width="310">
 
