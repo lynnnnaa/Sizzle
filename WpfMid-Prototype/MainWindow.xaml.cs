@@ -28,7 +28,15 @@ namespace WpfMid_Prototype
 
         }
 
+        private void menuButton_MouseMove(object sender, MouseEventArgs e)
+        {
+            menu2.Visibility = System.Windows.Visibility.Visible;
+        }
 
+        private void menuButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            menu2.Visibility = System.Windows.Visibility.Visible;
+        }
 
         private void menu2_MouseLeave(object sender, MouseEventArgs e)
         {
@@ -47,14 +55,11 @@ namespace WpfMid_Prototype
             StartMain.Content = new HomePage();
         }
 
-        private void menuButton_MouseMove(object sender, MouseEventArgs e)
-        {
-            menu2.Visibility = System.Windows.Visibility.Visible;
-        }
+        
 
-        private void menuButton_MouseDown(object sender, MouseButtonEventArgs e)
+        private void upload_Click(object sender, RoutedEventArgs e)
         {
-            menu2.Visibility = System.Windows.Visibility.Visible;
+            StartMain.Content = new UploadPage_1();
         }
     }
 }
