@@ -16,13 +16,14 @@ using System.Windows.Shapes;
 namespace WpfMid_Prototype
 {
     /// <summary>
-    /// Interaction logic for UploadPage_4.xaml
+    /// Interaction logic for ShoppingList.xaml
     /// </summary>
-    public partial class UploadPage_4 : Page
+    public partial class Profile : Page
     {
-        public UploadPage_4()
+        public Profile()
         {
             InitializeComponent();
         }
+
     }
 }

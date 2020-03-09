@@ -16,13 +16,33 @@ using System.Windows.Shapes;
 namespace WpfMid_Prototype
 {
     /// <summary>
-    /// Interaction logic for UploadPage_4.xaml
+    /// Interaction logic for ShoppingList.xaml
     /// </summary>
-    public partial class UploadPage_4 : Page
+    public partial class Search : Page
     {
-        public UploadPage_4()
+        public Search()
         {
             InitializeComponent();
+        }
+
+        private void addNew_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

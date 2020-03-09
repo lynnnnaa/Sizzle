@@ -1,0 +1,126 @@
+﻿<Page x:Class="WpfMid_Prototype.Search"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfMid_Prototype"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1280"
+      Title="Search">
+    <Grid>
+
+
+        <Label Content="Advanced Search" HorizontalAlignment="Left" Margin="104,0,0,0" VerticalAlignment="Top" Height="80" Width="auto" FontSize="36" RenderTransformOrigin="0.634,0.375" FontFamily="Arial Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Result" HorizontalAlignment="Left" Margin="842,0,0,0" VerticalAlignment="Top" Height="80" Width="auto" FontSize="36" RenderTransformOrigin="0.634,0.375" FontFamily="Arial Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Left" Height="608" Margin="0,92,0,0" VerticalAlignment="Top" Width="500">
+            <StackPanel Orientation="Horizontal" Width="500" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox HorizontalAlignment="Center" Height="37" TextWrapping="Wrap" Text="Veggie Taco" VerticalAlignment="Center" FontSize="20" Width="300" TextChanged="TextBox_TextChanged" Margin="100,0,0,0"/>
+                <Image x:Name="search" Source="Image36.png" Stretch="Fill" RenderTransformOrigin="1.382,0.474" Height="38" Width="37" Margin="0,0,0,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Width="500" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0">
+                <Label Content="With" FontSize="20" Margin="25,0,0,0" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="37"/>
+                <TextBox HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" Text="Add Craving" VerticalAlignment="Top" FontSize="20" Width="200" TextChanged="TextBox_TextChanged"/>
+                <Label Content="Without" FontSize="20" Margin="0,0,380,0" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="37"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <ScrollViewer Name="with" Margin="0" Width="250" Height="230">
+                    <StackPanel>
+                        <Label Content="Included Ingredient" FontSize="20"></Label>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Carrot" FontSize="20" Width="200"/>
+                            <Button Content="X" Width="30" FontSize="20" Height="30"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Egg" FontSize="20" Width="200"/>
+                            <Button Content="X" Width="30" FontSize="20" Height="30"/>
+                        </StackPanel>
+
+                    </StackPanel>
+
+
+                </ScrollViewer>
+                <ScrollViewer Name="without" Margin="0" Width="250" Height="230">
+                    <StackPanel>
+                        <Label Content="Excluded Ingredient" FontSize="20"></Label>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Pork" FontSize="20" Width="200"/>
+                            <Button Content="X" Width="30" FontSize="20" Height="30"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Beef" FontSize="20" Width="200"/>
+                            <Button Content="X" Width="30" FontSize="20" Height="30"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </StackPanel>
+            <StackPanel  HorizontalAlignment="Left" VerticalAlignment="Top" Width="500" Margin="0,10,0,0">
+                <Label Content="Dietary Constraints" FontSize="20" Margin="0,0,0,0"/>
+                <StackPanel Name="dietary" Orientation="Horizontal">
+                    <CheckBox Content="Vegan" Width="110">
+                        <CheckBox.LayoutTransform>
+                            <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                        </CheckBox.LayoutTransform>
+                    </CheckBox>
+                    <CheckBox Content="Dairy-Free" Margin="6,0,0,0" Width="110">
+                        <CheckBox.LayoutTransform>
+                            <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                        </CheckBox.LayoutTransform>
+                    </CheckBox>
+                    <CheckBox Content="Nut-Free">
+                        <CheckBox.LayoutTransform>
+                            <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                        </CheckBox.LayoutTransform>
+                    </CheckBox>
+
+
+                </StackPanel>
+            </StackPanel>
+            <StackPanel x:Name="dietary_Copy" Orientation="Horizontal">
+                <CheckBox Content="Vegetarian" Width="110">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox Content="Gluten-Free" Margin="6,0,0,0" Width="110">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Expected Time (Hours)" FontSize="20" Width="220"/>
+                <Slider Maximum="10" TickPlacement="BottomRight" TickFrequency="2" IsSnapToTickEnabled="True" Name="slValue" Width="220" />
+                <TextBox Text="{Binding ElementName=slValue, Path=Value, UpdateSourceTrigger=PropertyChanged}" FontSize="20" DockPanel.Dock="Right" TextAlignment="Right" Width="40" TextChanged="TextBox_TextChanged_1" />
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Difficulty (Stars)" FontSize="20" Width="220"/>
+                <Slider Maximum="5" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" x:Name="slValue2" Width="220" />
+                <TextBox Text="{Binding Value, ElementName=slValue2, UpdateSourceTrigger=PropertyChanged}" FontSize="20" DockPanel.Dock="Right" TextAlignment="Right" Width="40" TextChanged="TextBox_TextChanged_2" />
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,30,0,0">
+                <Button x:Name="clear" Content="Clear All" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Height="36" FontSize="24" Margin="100,0,0,0"/>
+                <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Height="36" FontSize="24" Margin="100,0,0,0"/>
+            </StackPanel>
+
+        </StackPanel>
+        <StackPanel Margin="544,91,553,386" Orientation="Vertical">
+            <Image x:Name="image3" Source="Image7.png" Stretch="Fill" Height="177"/>
+            <Label Content="Veggie Taco" HorizontalAlignment="Left" Margin="24,0,0,0" VerticalAlignment="Top" Width="121" FontSize="18"/>
+        </StackPanel>
+        <StackPanel Margin="793,91,303,386" Orientation="Vertical">
+            <Image Source="Image37.png" Stretch="Fill" Height="176"/>
+            <Label Content="Veggie Taco" HorizontalAlignment="Left" Margin="32,0,0,0" VerticalAlignment="Top" Width="121" FontSize="18"/>
+        </StackPanel>
+        <StackPanel Margin="1043,93,54,386" Orientation="Vertical">
+            <Image Source="Image38.png" Stretch="Fill" Height="175"/>
+
+            <Label Content="Veggie Taco" HorizontalAlignment="Left" Margin="29,0,0,0" VerticalAlignment="Top" Width="121" FontSize="18"/>
+        </StackPanel>
+
+    </Grid>
+
+</Page>

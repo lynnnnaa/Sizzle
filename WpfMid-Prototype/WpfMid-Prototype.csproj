@@ -58,8 +58,26 @@
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ShoppingList.xaml.cs">
       <DependentUpon>ShoppingList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UploadPage_1.xaml.cs">
+      <DependentUpon>UploadPage_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UploadPage_2.xaml.cs">
+      <DependentUpon>UploadPage_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UploadPage_3.xaml.cs">
+      <DependentUpon>UploadPage_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UploadPage_4.xaml.cs">
+      <DependentUpon>UploadPage_4.xaml</DependentUpon>
     </Compile>
     <Page Include="HomePage.xaml">
       <SubType>Designer</SubType>
@@ -77,9 +95,33 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Profile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Search.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="ShoppingList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UploadPage_1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UploadPage_2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UploadPage_3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UploadPage_4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -221,6 +263,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image39.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

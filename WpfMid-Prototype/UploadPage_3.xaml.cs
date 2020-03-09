@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WpfMid_Prototype
 {
     /// <summary>
-    /// Interaction logic for Page4.xaml
+    /// Interaction logic for UploadPage_3.xaml
     /// </summary>
-    public partial class Page4 : Page
+    public partial class UploadPage_3 : Page
     {
-        public Page4()
+        public UploadPage_3()
         {
             InitializeComponent();
         }

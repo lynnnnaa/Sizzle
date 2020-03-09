@@ -56,5 +56,20 @@ namespace WpfMid_Prototype
         {
             menu2.Visibility = System.Windows.Visibility.Visible;
         }
+
+        private void AdvanceSearch_Click(object sender, RoutedEventArgs e)
+        {
+            StartMain.Content = new Search();
+        }
+
+        private void NewRecipe_Click(object sender, RoutedEventArgs e)
+        {
+            StartMain.Content = new UploadPage_1();
+        }
+
+        private void Profile_Click(object sender, RoutedEventArgs e)
+        {
+            StartMain.Content = new Profile();
+        }
     }
 }

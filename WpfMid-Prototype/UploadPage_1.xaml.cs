@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace WpfMid_Prototype
 {
     /// <summary>
-    /// Interaction logic for Page2.xaml
+    /// Interaction logic for UploadPage_1.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class UploadPage_1 : Page
     {
-        public Page2()
+        public UploadPage_1()
         {
             InitializeComponent();
+        }
+
+        private void next_Click(object sender, RoutedEventArgs e)
+        {
+            upload1.Content = new UploadPage_2();
         }
     }
 }

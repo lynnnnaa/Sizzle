@@ -1,4 +1,4 @@
-﻿<Page x:Class="WpfMid_Prototype.Page1"
+﻿<Page x:Class="WpfMid_Prototype.UploadPage_4"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -28,7 +28,7 @@
             <Canvas Background="#fafafa" Width="1280" Height="844">
 
                 <Canvas Background="#FFF0F0F0" Height="750" Canvas.Left="33" Canvas.Top="10" Width="1200">
-                    <Image x:Name="image1" Height="220" Source="Image7.png" Stretch="Fill" Width="220" Canvas.Left="386" Canvas.Top="10"/>
+                    <Image Height="220" Source="Image7.png" Stretch="Fill" Width="220" Canvas.Left="386" Canvas.Top="10"/>
 
 
                     <Button Content="Save and Exit" FontSize="20" FontFamily="Calibri" Canvas.Left="765" Canvas.Top="776" Width="175" Height="33"/>
