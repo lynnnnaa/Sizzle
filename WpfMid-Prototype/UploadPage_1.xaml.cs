@@ -27,6 +27,7 @@ namespace WpfMid_Prototype
 
         private void next_Click(object sender, RoutedEventArgs e)
         {
+            upload1.Content = null;
             upload1.Content = new UploadPage_2();
         }
     }
